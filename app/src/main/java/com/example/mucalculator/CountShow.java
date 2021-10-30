@@ -7,6 +7,7 @@ public class CountShow {
     private TextView mainScreen;
     private TextView memoryScreen;
     private String equation = "";
+    private static int constanta = 3;
 
     public CountShow(TextView mainScreen, TextView memoryScreen) {
         this.mainScreen = mainScreen;
@@ -16,8 +17,8 @@ public class CountShow {
     public void addToEquation(String key) {
         String input = mainScreen.getText().toString();
         String operation = String.format(" %s ", key);
-        if (equation.length() > 3 && equation.endsWith(" ") && input.equals("")) {
-            equation = equation.substring(0, equation.length() - 3);
+        if (equation.length() > constanta && equation.endsWith(" ") && input.equals("")) {
+            equation = equation.substring(0, equation.length() - constanta);
         }
         equation = String.format("%s%s%s", equation, input, operation);
         memoryScreen.setText(equation);
