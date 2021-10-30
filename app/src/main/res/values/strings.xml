@@ -1,3 +1,20 @@
 <resources>
-    <string name="app_name">MuCalculator</string>
+    <string name="app_name" translatable="false">MuCalculator</string>
+    <string name="Button_C" translatable="false">C</string>
+    <string name="Button_0" translatable="false">0</string>
+    <string name="Button_TCHK" translatable="false">.</string>
+    <string name="Button_plus" translatable="false">+</string>
+    <string name="Button_result" translatable="false">=</string>
+    <string name="Button_minus" translatable="false">-</string>
+    <string name="Button_3" translatable="false">3</string>
+    <string name="Button_2" translatable="false">2</string>
+    <string name="Button_1" translatable="false">1</string>
+    <string name="Button_x" translatable="false">x</string>
+    <string name="Button_6" translatable="false">6</string>
+    <string name="Button_5" translatable="false">5</string>
+    <string name="Button_4" translatable="false">4</string>
+    <string name="Button_del" translatable="false">/</string>
+    <string name="Button_9" translatable="false">9</string>
+    <string name="Button_8" translatable="false">8</string>
+    <string name="Button_7" translatable="false">7</string>
 </resources>
